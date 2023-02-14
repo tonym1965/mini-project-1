@@ -140,26 +140,26 @@ section {
     cursor: pointer;
 }
 .wrapper1 {
-    background-image: url(img/hands.jpg);
+    background-image: url(images/hands.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
 }
 .wrapper2 {
-    background-image: url(img/health-for-all.jpg);
+    background-image: url(images/health-for-all.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .wrapper3 {
-    background-image: url(img/family-ct-scan.jpg);
+    background-image: url(images/family-ct-scan.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }    
 .wrapper4 {
-    background-image: url(img/hospital-ward.png);
+    background-image: url(images/hospital-ward.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -185,6 +185,15 @@ section {
 .card-text {
     background-color: aquamarine;
 }
+.centered-list {
+    text-align: center;
+}
+  
+.centered-list li {
+    display: inline-block;
+    margin-right: 6px; /* Optional: add spacing between icons */
+}
+  
 .breadcrumb-item {
     text-decoration: none;
     color: black;
