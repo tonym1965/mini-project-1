@@ -73,16 +73,21 @@ a {
     color: var(--dark);
     text-decoration: none;
     transition: all 0.4s linear;
+
 }
 a:hover {
     color: var(--brand);
 }
+a.active {
+    text-shadow: #060f03;  
+}
+  
 img {
     width: 100%;
 }
 section {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 /* hero */
@@ -129,7 +134,7 @@ section {
     cursor: pointer;
 }
 .call-us-button:hover {
-    background-color: #f17676;
+    background-color: #72b2ee;
     color: black;
     transition: 0.4s ease-out;
     cursor: pointer;
@@ -139,6 +144,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
 }
 .wrapper2 {
     background-image: url(img/health-for-all.jpg);
