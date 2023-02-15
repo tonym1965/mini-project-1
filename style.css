@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--dark);
     text-decoration: none;
-    transition: all 0.4s linear;
+    transition: all 0.4s ease;
 
 }
 a:hover {
