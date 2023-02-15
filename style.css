@@ -8,7 +8,7 @@
     text-decoration: none;
     color: black;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-right: 15px;
     transition: all 0.4s;
 }
@@ -85,6 +85,9 @@ a.active {
 img {
     width: 100%;
 }
+.fa-house {
+    font-size: 1.2em;
+}
 section {
     padding-top: 100px;
     padding-bottom: 30px;
@@ -123,6 +126,15 @@ section {
 
 #hero .input-group input:focus {
     box-shadow: none;
+}
+.btn {
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    transition: all 0.4s ease;
 }
 .call-us-button {
     padding: 10px 20px;
@@ -204,6 +216,11 @@ section {
 }
 .breadcrumb-item:hover {
     color: rgb(20, 219, 20);
+}
+.rounded-circle {
+    width: 460px;
+    height: 400px;
+    opacity: 0.7;
 }
 
 
