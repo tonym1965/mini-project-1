@@ -6,9 +6,9 @@
 }
 .nav-item a {
     text-decoration: none;
-    color: black;
-    font-weight: 600;
-    text-transform: capitalize;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
     margin-right: 15px;
     transition: all 0.4s;
 }
@@ -39,21 +39,9 @@
 .btn1:hover {
     background-color: rgb(13, 172, 13);
 }
-/*
-.fa-comments-question {
-    font-size: 30px;
-    color: black;
-    cursor: pointer;
-    padding-top: 5px;
-    transition: all 0.4s;
-}
-.fa-comments-question:hover {
-    color: rgb(20, 219, 20);
-}*/
-
 .navbar-toggler {
     font-size: 25px;
-    color: black;
+    color: white;
 }    
 .navbar-toggler:focus {
     outline: none;
@@ -65,9 +53,9 @@ body {
     color: var(--body);
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    color: var(--dark);
-    font-family: 'Domine', sans-serif;
+    font-weight: 600;
+    color: var(--white);
+    font-family: 'Sora', sans-serif;
 }
 a {
     color: var(--dark);
@@ -163,7 +151,7 @@ section {
     background-attachment: fixed;
 }
 .wrapper3 {
-    background-image: url(images/family-ct-scan.jpg);
+    background-image: url(images/emergency.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -217,14 +205,10 @@ section {
   
 .breadcrumb-item {
     text-decoration: none;
-    color: black;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     margin-right: 15px;
     transition: all 0.4s;
-}
-.breadcrumb-item:hover {
-    color: rgb(20, 219, 20);
 }
 .rounded-circle {
     width: 460px;
