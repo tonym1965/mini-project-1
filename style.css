@@ -163,11 +163,6 @@ section {
     background-attachment: fixed;
     
 }
-/*.card-body:hover {
-    background-color: rgb(13, 172, 13);
-    transition: all 0.4s ease;
-    transform: rotate3d();
-}*/
 .card-body {
     display: flex;
     flex-direction: column;
