@@ -7,7 +7,7 @@
 .nav-item a {
     text-decoration: none;
     color: white;
-    font-weight: 800;
+    font-weight: 400;
     text-transform: uppercase;
     margin-right: 15px;
     transition: all 0.4s;
@@ -55,7 +55,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: var(--white);
-    font-family: 'Sora', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     color: var(--dark);
@@ -77,8 +77,8 @@ img {
     font-size: 1.2em;
 }
 section {
-    padding-top: 100px;
-    padding-bottom: 30px;
+    padding-top: 160px;
+    padding-bottom: 5px;
 }
 
 /* hero */
@@ -86,10 +86,11 @@ section {
     min-height: 100vh;
     text-align: center;
     background-attachment: fixed;
+    background-color: rgba(200, 200, 200, 0.3);
     
 }
 #hero h1 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #hero p {
@@ -149,18 +150,21 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: rgba(200, 200, 200, 0.3);
 }
 .wrapper3 {
     background-image: url(images/emergency.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: rgba(200, 200, 200, 0.3);
 }    
 .wrapper4 {
     background-image: url(images/hospital-ward.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: rgba(200, 200, 200, 0.3);
     
 }
 .card-body {
